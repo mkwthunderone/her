@@ -1,0 +1,116 @@
+body {
+    background-color: #d4e0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.login-container h2 {
+    color: #4682b4;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.heart-icons {
+    font-size: 24px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4682b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #357abd;
+}
+
+.login-container #error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #d4e0f0;
+}
+
+.container h1 {
+    color: #4682b4;
+}
+
+.heart-message {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.heart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #4682b4;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+.heart-container img {
+    width: 200px;
+    height: 200px;
+   
+    transform: rotate(-15deg);
+    margin-right: 20px;
+}
+
+.heart-container p {
+    color: #333;
+    font-size: 18px;
+    margin: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(-15deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(-15deg);
+    }
+    100% {
+        transform: scale(1) rotate(-15deg);
+    }
+}
